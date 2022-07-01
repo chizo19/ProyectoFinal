@@ -1,0 +1,11 @@
+2022-05-31 23:56:16,546 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting YankiApplication using Java 11.0.15 on CristianM with PID 30716 (C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\YankiService\target\classes started by Cristian Muñoz in C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\YankiService)
+2022-05-31 23:56:16,548 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 23:56:19,243 INFO com.group7.yanki.serviceimpl.ListenService [restartedMain] inicia yanki
+2022-05-31 23:56:31,025 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started YankiApplication in 15.898 seconds (JVM running for 16.667)
+2022-05-31 23:58:14,491 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting YankiApplication using Java 11.0.15 on CristianM with PID 14524 (C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\YankiService\target\classes started by Cristian Muñoz in C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\YankiService)
+2022-05-31 23:58:14,493 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 23:58:17,087 INFO com.group7.yanki.serviceimpl.ListenService [restartedMain] inicia yanki
+2022-05-31 23:58:28,568 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started YankiApplication in 15.439 seconds (JVM running for 16.087)
+2022-05-31 23:58:47,259 INFO com.group7.yanki.serviceimpl.AccountServiceImpl [KafkaConsumerDestination{consumerDestinationName='t0w7xm87-bootcointoyanki', partitions=5, dlqName='null'}.container-0-C-1] inicia getByPhone991111112
+2022-05-31 23:59:21,084 INFO com.group7.yanki.serviceimpl.AccountServiceImpl [nioEventLoopGroup-6-7] Updated account with phone: 991111225
+2022-05-31 23:59:33,928 INFO com.group7.yanki.serviceimpl.AccountServiceImpl [reactor-http-nio-3] inicia getByPhone991111112

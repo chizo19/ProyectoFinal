@@ -1,0 +1,146 @@
+2022-05-31 11:20:55,527 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountsServiceApplication using Java 11.0.15 on CristianM with PID 34748 (C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\AccountsService\target\classes started by Cristian Muñoz in C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\AccountsService)
+2022-05-31 11:20:55,529 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 11:21:12,255 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountsServiceApplication in 18.487 seconds (JVM running for 24.687)
+2022-05-31 11:30:31,976 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountsServiceApplication using Java 11.0.15 on CristianM with PID 14420 (C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\AccountsService\target\classes started by Cristian Muñoz in C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\AccountsService)
+2022-05-31 11:30:31,978 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 11:30:48,686 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountsServiceApplication in 18.96 seconds (JVM running for 26.068)
+2022-05-31 11:33:55,849 INFO com.group7.accountsservice.serviceimpl.AccountServiceImpl [nioEventLoopGroup-2-7] Retrieving all Accounts
+2022-05-31 11:34:08,978 INFO com.group7.accountsservice.serviceimpl.AccountServiceImpl [nioEventLoopGroup-2-7] Retrieving all Accounts
+2022-05-31 11:52:14,915 INFO com.group7.accountsservice.serviceimpl.AccountServiceImpl [nioEventLoopGroup-2-7] Retrieving all Accounts
+2022-05-31 11:54:29,073 INFO com.group7.accountsservice.serviceimpl.AccountServiceImpl [nioEventLoopGroup-2-7] Retrieving all Accounts
+2022-05-31 12:31:09,151 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountsServiceApplication using Java 11.0.15 on CristianM with PID 31924 (C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\AccountsService\target\classes started by Cristian Muñoz in C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\AccountsService)
+2022-05-31 12:31:09,153 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 12:31:26,799 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountsServiceApplication in 19.761 seconds (JVM running for 26.562)
+2022-05-31 14:41:54,787 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountsServiceApplication using Java 11.0.15 on CristianM with PID 14028 (C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\AccountsService\target\classes started by Cristian Muñoz in C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\AccountsService)
+2022-05-31 14:41:54,789 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 14:42:13,221 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountsServiceApplication in 20.678 seconds (JVM running for 31.923)
+2022-05-31 14:46:32,201 INFO com.group7.accountsservice.serviceimpl.AccountServiceImpl [nioEventLoopGroup-2-7] Created new account with ID: 62967098260154015d28b808
+2022-05-31 14:50:55,380 ERROR com.group7.accountsservice.serviceimpl.AccountServiceImpl [nioEventLoopGroup-2-7] Account not found with id: 6296706f7f9b0471ceeaad24
+com.group7.accountsservice.exception.account.AccountNotFoundException: Account not found with id: 6296706f7f9b0471ceeaad24
+	at com.group7.accountsservice.serviceimpl.AccountServiceImpl.getById(AccountServiceImpl.java:100)
+	at com.group7.accountsservice.controller.AccountController.getAccount(AccountController.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.reactive.result.method.InvocableHandlerMethod.lambda$invoke$0(InvocableHandlerMethod.java:144)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:251)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:336)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+	at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:101)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2398)
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2194)
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2068)
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:192)
+	at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4385)
+	at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:128)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:240)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onComplete(MonoFlatMap.java:181)
+	at reactor.core.publisher.Operators.complete(Operators.java:137)
+	at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:120)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
+	at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.innerNext(FluxConcatMap.java:282)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2398)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:169)
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2194)
+	at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2068)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:96)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onSubscribe(MonoPeekTerminal.java:152)
+	at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:55)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:451)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:219)
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:165)
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:87)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4400)
+	at org.springframework.http.server.reactive.ServletHttpHandlerAdapter.service(ServletHttpHandlerAdapter.java:198)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1440)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:137)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-05-31 14:51:28,176 INFO com.group7.accountsservice.serviceimpl.YankiService [nioEventLoopGroup-2-7] Account from: true
+2022-05-31 14:56:13,802 INFO com.group7.accountsservice.serviceimpl.YankiService [nioEventLoopGroup-2-7] Account from: true
+2022-05-31 14:58:33,258 INFO com.group7.accountsservice.serviceimpl.YankiService [nioEventLoopGroup-2-7] Account from: true
+2022-05-31 15:10:55,976 INFO com.group7.accountsservice.serviceimpl.AccountServiceImpl [nioEventLoopGroup-2-7] Created new account with ID: 6296764f260154015d28b80a
+2022-05-31 15:12:48,920 INFO com.group7.accountsservice.serviceimpl.YankiService [nioEventLoopGroup-2-7] Account from: true
+2022-05-31 15:16:56,434 INFO com.group7.accountsservice.serviceimpl.YankiService [nioEventLoopGroup-2-7] Account from: true
+2022-05-31 15:18:08,564 INFO com.group7.accountsservice.serviceimpl.YankiService [redisson-netty-3-25] Yanki Yanki(id=null, from=991111114, to=991111111, amount=50.0, date=2022-05-31)
+2022-05-31 15:18:08,940 INFO com.group7.accountsservice.serviceimpl.YankiService [redisson-netty-3-26] Account from: true
+2022-05-31 15:21:31,435 INFO com.group7.accountsservice.serviceimpl.AccountServiceImpl [nioEventLoopGroup-2-7] Created new account with ID: 629678cb260154015d28b80f
+2022-05-31 15:24:25,183 INFO com.group7.accountsservice.serviceimpl.AccountServiceImpl [nioEventLoopGroup-2-7] Updated account with ID: 629678cb260154015d28b80f
+2022-05-31 15:24:32,436 INFO com.group7.accountsservice.serviceimpl.AccountServiceImpl [nioEventLoopGroup-2-7] Updated account with ID: 6296764f260154015d28b80a
+2022-05-31 15:24:59,916 INFO com.group7.accountsservice.serviceimpl.YankiService [redisson-netty-3-27] Yanki Yanki(id=null, from=991111115, to=991111114, amount=45.0, date=2022-05-31)
+2022-05-31 15:25:00,757 INFO com.group7.accountsservice.serviceimpl.YankiService [nioEventLoopGroup-2-7] Account from: true
+2022-05-31 15:25:27,617 INFO com.group7.accountsservice.serviceimpl.AccountServiceImpl [nioEventLoopGroup-2-7] Updated account with ID: 629678cb260154015d28b80f
+2022-05-31 15:25:34,268 INFO com.group7.accountsservice.serviceimpl.AccountServiceImpl [nioEventLoopGroup-2-7] Updated account with ID: 6296764f260154015d28b80a
+2022-05-31 15:26:17,941 INFO com.group7.accountsservice.serviceimpl.YankiService [redisson-netty-3-30] Yanki Yanki(id=null, from=991111115, to=991111114, amount=1.0, date=2022-05-31)
+2022-05-31 15:26:18,678 INFO com.group7.accountsservice.serviceimpl.YankiService [nioEventLoopGroup-2-7] Account from: true
+2022-05-31 15:27:01,765 INFO com.group7.accountsservice.serviceimpl.YankiService [redisson-netty-3-9] Yanki Yanki(id=null, from=991111115, to=991111114, amount=1.0, date=2022-05-31)
+2022-05-31 15:27:02,502 INFO com.group7.accountsservice.serviceimpl.YankiService [nioEventLoopGroup-2-7] Account from: true
+2022-05-31 15:27:06,304 INFO com.group7.accountsservice.serviceimpl.YankiService [redisson-netty-3-4] Yanki Yanki(id=null, from=991111115, to=991111114, amount=1.0, date=2022-05-31)
+2022-05-31 15:27:07,038 INFO com.group7.accountsservice.serviceimpl.YankiService [nioEventLoopGroup-2-7] Account from: true
+2022-05-31 15:32:43,939 INFO com.group7.accountsservice.serviceimpl.YankiService [redisson-netty-3-32] Yanki Yanki(id=null, from=991111115, to=991111114, amount=1.0, date=2022-05-31)
+2022-05-31 15:32:44,675 INFO com.group7.accountsservice.serviceimpl.YankiService [nioEventLoopGroup-2-7] Account from: true
+2022-05-31 17:18:32,217 INFO com.group7.accountsservice.serviceimpl.AccountServiceImpl [nioEventLoopGroup-2-7] Updated account with ID: 629678cb260154015d28b80f
+2022-05-31 17:19:27,352 INFO com.group7.accountsservice.serviceimpl.YankiService [redisson-netty-3-29] Yanki Yanki(id=null, from=991111115, to=991111111, amount=1.0, date=2022-05-31)
+2022-05-31 17:19:28,005 INFO com.group7.accountsservice.serviceimpl.YankiService [redisson-netty-3-1] Account from: true
+2022-05-31 17:19:34,202 INFO com.group7.accountsservice.serviceimpl.AccountServiceImpl [nioEventLoopGroup-2-7] Updated account with ID: 629678cb260154015d28b80f
+2022-05-31 17:22:26,283 INFO com.group7.accountsservice.serviceimpl.YankiService [redisson-netty-3-4] Yanki Yanki(id=null, from=991111115, to=991111111, amount=1.0, date=2022-05-31)
+2022-05-31 17:22:26,659 INFO com.group7.accountsservice.serviceimpl.YankiService [redisson-netty-3-7] Account from: true
+2022-05-31 17:43:52,085 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountsServiceApplication using Java 11.0.15 on CristianM with PID 31292 (C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\AccountsService\target\classes started by Cristian Muñoz in C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\AccountsService)
+2022-05-31 17:43:52,087 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 17:44:08,571 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountsServiceApplication in 18.828 seconds (JVM running for 34.304)
+2022-05-31 17:45:21,887 INFO com.group7.accountsservice.serviceimpl.YankiService [redisson-netty-3-6] Yanki Yanki(id=null, from=991111115, to=991111111, amount=1.0, date=2022-05-31)
+2022-05-31 17:45:29,731 INFO com.group7.accountsservice.serviceimpl.YankiService [redisson-netty-3-10] Account from: true
+2022-05-31 17:46:25,835 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountsServiceApplication using Java 11.0.15 on CristianM with PID 31592 (C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\AccountsService\target\classes started by Cristian Muñoz in C:\Cristian\Cursos\Everis-Microservicios\Proyectos\Workspace2\AccountsService)
+2022-05-31 17:46:25,837 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 17:46:41,948 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountsServiceApplication in 17.865 seconds (JVM running for 33.791)
+2022-05-31 19:15:28,562 INFO com.group7.accountsservice.serviceimpl.YankiService [redisson-netty-3-8] Yanki Yanki(id=null, from=991111115, to=991111111, amount=1.0, date=2022-05-31)
+2022-05-31 19:15:36,311 INFO com.group7.accountsservice.serviceimpl.YankiService [redisson-netty-3-6] Account from: true
